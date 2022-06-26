@@ -1,0 +1,32 @@
+curl -X GET "http://localhost:3000/api/app/list"  -d "Hello World"
+
+###
+curl -X POST "http://localhost:3000/api/app/info" -d "Hello World"
+
+
+###
+curl -X GET "http://localhost:3000/api/app/user_33" -d "Hello World"
+
+###
+curl -X PUT "http://localhost:3000/api/app/list/122"  -d "Hello World"
+
+###
+curl -X GET "http://localhost:3000/api/post"  -d "Hello World"
+
+###
+curl -X GET "http://localhost:3000/api/post?id=2"  -d "Hello World"
+
+
+###
+ 
+POST http://localhost:3000/api/post HTTP/1.1
+content-type: application/json
+
+{
+    "title":"Hendry",
+    "author":"61888",
+    "content":"26",
+    "thumb_url":"26",
+    "type":0
+}
+ 
